@@ -4,7 +4,7 @@
   "description": "\"# City_Bike_NYC_API\" \r \"# City_Bike_NYC_API\"",
   "main": "express.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node express.js"
   },
   "repository": {
     "type": "git",
