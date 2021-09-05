@@ -18,4 +18,4 @@ server.get("/data",(req,res)=>{
 
 
 
-server.listen(process.env.PORT || 4000);
+server.listen(process.env.port || 4000);
