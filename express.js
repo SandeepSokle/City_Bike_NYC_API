@@ -17,5 +17,7 @@ server.get("/data",(req,res)=>{
 })
 
 
-
-server.listen(process.env.port || 4000);
+const port = process.env.PORT || 4000;
+server.listen(port, function(req, res) {
+  console.log("Server has started at port 4000");
+});
