@@ -5,7 +5,7 @@
 
 
 let express = require("express");
-let data = require("./tempData.json");
+let data = require("./data.json");
 
 
 
