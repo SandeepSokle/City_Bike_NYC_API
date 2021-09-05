@@ -1,0 +1,22 @@
+{
+  "name": "city_bike_nyc_api",
+  "version": "1.0.0",
+  "description": "\"# City_Bike_NYC_API\" \r \"# City_Bike_NYC_API\"",
+  "main": "express.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SandeepSokle/City_Bike_NYC_API.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SandeepSokle/City_Bike_NYC_API/issues"
+  },
+  "homepage": "https://github.com/SandeepSokle/City_Bike_NYC_API#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
