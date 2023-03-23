@@ -1,8 +1,9 @@
 let express = require("express");
 let data = require("./data.json");
+const cors = require("cors");
 
 let server = express();
-server.use(cors())
+server.use(cors());
 
 server.get("/data", (req, res) => {
   res.json(data);
